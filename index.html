@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="w-full h-screen flex flex-col gap-10 justify-center items-center">
+        <h1 class="text-3xl capitalize" id="displayText">
+          Hi, will you be my <span class="font-bold text-pink-600">valentine</span>?👉👈😗
+        </h1>
+        <div class="tenor-gif-embed" id="gifOne" data-postid="26864913" data-share-method="host" data-aspect-ratio="1.26482" data-width="20%"><a href="https://tenor.com/view/peach-and-goma-goma-flower-offer-flower-gif-26864913">Peach And Goma Goma Sticker</a>from <a href="https://tenor.com/search/peach+and+goma-stickers">Peach And Goma Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div class="tenor-gif-embed hidden" id="gifTwo" data-postid="18233787496535725161" data-share-method="host" data-aspect-ratio="1" data-width="30%"><a href="https://tenor.com/view/mochi-cat-vans-gif-18233787496535725161">Mochi Cat GIF</a>from <a href="https://tenor.com/search/mochi-gifs">Mochi GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div class="flex gap-5">   
+            <button class="bg-green-600 px-10 py-3 rounded-lg text-white hover:bg-green-800 cursor-pointer duration-200 ease-in hover:scale-125 hover:font-bold" id="btnYes" onclick="accepted()">Yes</button>
+            <button class="bg-red-600 px-10 py-3 rounded-lg text-white hover:bg-red-800 cursor-pointer duration-200 ease-in hover:scale-125 hover:font-bold" id="btnNo" onclick="denied()">No</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
